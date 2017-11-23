@@ -30,7 +30,7 @@
 # w: wireframe
 # s: surface
 
-# pan to specific coordinate
+# pan to specific coordinates
 # /vis/viewer/panTo [right] [up] [unit]
 # /vis/viewer/pan [right] [up] [unit]
 
@@ -50,8 +50,7 @@
 
 # add axes to draw
 # /vis/scene/add/axes [x0] [y0] [z0] [length] [unit] [colour-string] [showtext]
-
-# Draws axes at (x0, y0, z0) of given length and colour
+# draw axes at (x0, y0, z0) of given length and colour
 # If "colour-string" is "auto", x, y and z will be red, green and blue 
 # respectively. Otherwise it can be one of the pre-defined text-specified 
 # colours - see information printed by the vis manager at start-up or use "/vis/list".
@@ -74,7 +73,6 @@
 # /vis/viewer/set/lightsMove [lightsMove]
 # Parameter candidates : cam camera with-camera obj object with-object
 
-
 # reset to the default
 # /vis/viewer/reset
 
@@ -83,7 +81,7 @@
 
 # /vis/scene/endOfEventAction [action] [maxNumber]
 # Accumulate or refresh the viewer for each new event.
-# "accumulate": viewer accumulates hits, etc., event by event, or
-# "refresh": viewer shows them at end of event or, for direct-screen viewers, 
-# refreshes the screen just before drawing the next event.
+#   "accumulate": viewer accumulates hits, etc., event by event, or
+#   "refresh": viewer shows them at end of event or, for direct-screen viewers, 
+#              refreshes the screen just before drawing the next event.
 
